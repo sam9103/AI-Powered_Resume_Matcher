@@ -1,0 +1,29 @@
+# .gitignore
+
+# Ignore virtual environments
+venv/
+**/venv/
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Upload folders
+data/
+uploads/
